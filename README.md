@@ -4,7 +4,7 @@ Android client for the pancreatic cancer prediction API. It provides a **schema-
 
 ## Repository links
 
-- Android app: [Android-Pancreatic-Cancer](https://github.com/Sami-dev07/Android-Pancreatic-Cancer)
+- Android app: [Android-Pancreatic-Cancer](https://github.com/Sami-dev07/Android-Pancreatic-Cancer-Detection)
 - Backend API: [Pancreatic-Cancer-Detection](https://github.com/Sami-dev07/Pancreatic-Cancer-Detection)
 
 This app includes:
