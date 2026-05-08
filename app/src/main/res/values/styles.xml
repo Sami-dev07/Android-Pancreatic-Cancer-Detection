@@ -1,0 +1,45 @@
+<resources>
+    <!-- Typography -->
+    <style name="TextAppearance.Pancreatic.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/slate_900</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Pancreatic.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/slate_700</item>
+    </style>
+
+    <style name="TextAppearance.Pancreatic.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/slate_700</item>
+    </style>
+
+    <style name="TextAppearance.Pancreatic.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/slate_500</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="Widget.Pancreatic.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+    </style>
+
+    <style name="Widget.Pancreatic.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeColor">@color/slate_200</item>
+        <item name="android:textColor">@color/slate_900</item>
+    </style>
+
+    <!-- Cards -->
+    <style name="Widget.Pancreatic.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">18dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeColor">@color/slate_200</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+</resources>
+

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Pancreatic Risk</string>
+
+    <!-- Main screen -->
+    <string name="main_open_model_selection">Select Prediction Model</string>
+    <string name="main_active_model_indicator">Active model: %1$s</string>
+    <string name="main_active_model_unknown">Active model: unknown</string>
+
+    <!-- Features / prediction -->
+    <string name="features_model_spinner_label">Model for this prediction</string>
+    <string name="features_change_model">Change model</string>
+    <string name="features_open_glossary">Feature glossary</string>
+    <string name="glossary_title">Feature glossary</string>
+    <string name="glossary_loading">Loading feature details…</string>
+    <string name="glossary_error">Could not load feature details: %1$s</string>
+    <string name="glossary_empty">No feature details available.</string>
+    <string name="prediction_model_name_line">Model used: %1$s</string>
+    <string name="prediction_model_key_line">Model key: %1$s</string>
+    <string name="prediction_model_unknown">n/a</string>
+
+    <string-array name="model_spinner_options">
+        <item>Use Active Model</item>
+        <item>Logistic Regression</item>
+        <item>Random Forest</item>
+        <item>XGBoost</item>
+        <item>ANN</item>
+    </string-array>
+
+    <!-- Model selection screen -->
+    <string name="model_selection_title">Select Prediction Model</string>
+    <string name="model_selection_loading_models">Loading models...</string>
+    <string name="model_selection_error_models">Could not load models: %1$s</string>
+    <string name="model_selection_loading_active">Loading active model...</string>
+    <string name="model_selection_active_subtitle">Currently active: %1$s</string>
+    <string name="model_selection_active_error">Could not load active model</string>
+    <string name="model_selection_switching">Switching model...</string>
+    <string name="model_selection_switch_ok">%1$s</string>
+    <string name="model_selection_switch_error">Switch failed: %1$s</string>
+
+    <!-- Model card -->
+    <string name="model_card_active_badge">✓ Active</string>
+    <string name="model_card_not_loaded">⚠ Model not trained yet</string>
+    <string name="model_card_button_select">Select</string>
+    <string name="model_card_button_active">Active</string>
+</resources>
